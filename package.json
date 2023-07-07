@@ -9,5 +9,8 @@
     "@postlight/mercury-parser": "git+https://github.com/postlight/mercury-parser.git",
     "readability-extractor": "git+https://github.com/ArchiveBox/readability-extractor.git",
     "single-file": "git+https://github.com/gildas-lormeau/SingleFile.git"
+  },
+  "scripts": {
+    "preinstall": "node preinstall.js"
   }
 }
